@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Game</title>
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">	
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/spinkit.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.plugin.min.js"></script>
+		<script src="js/jquery.countdown.min.js"></script>
+		<script src="socket.io/socket.io.js"></script>
+		<script src="js/game/host.js"></script>
+	</head>
+<body>
+	<div align="center">
+		<div id="lobby">
+			<div id="lobby_room_code"></div>
+			<div id="lobby_players"></div>
+			<div id="lobby_audience"></div>
+			<div id="start_game">
+				<button id="btn_start_game" class="btn btn-default"></button>
+			</div>
+		</div>
+		<div id="game_start">
+			<div id="game">
+				<button id="btn_end_game" class="btn btn-default">End Game</button>
+			</div>
+			<div id="end">
+				<button id="btn_same_players" class="btn btn-default">Same Players</button>
+				<button id="btn_new_players" class="btn btn-default">New Players</button>
+			</div>
+			<button id="btn_leave_game" class="btn btn-default">Leave Game</button>
+		</div>
+	</div>
+</body>
+</html>

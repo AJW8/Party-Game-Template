@@ -1,0 +1,28 @@
+{
+  "name": "party-game-template",
+  "version": "1.0.0",
+  "description": "Template for creating local server multiplayer party games using Node.js and Socket.IO.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-socket.io-session": "^1.3.2",
+    "html-entities": "^1.2.1",
+    "socket.io": "^2.0.4",
+    "string.prototype.startswith": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJW8/Party-Game-Template.git"
+  },
+  "author": "Aaron Win",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJW8/Party-Game-Template/issues"
+  },
+  "homepage": "https://github.com/AJW8/Party-Game-Template#readme"
+}

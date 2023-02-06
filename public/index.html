@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Game</title>
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">	
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="socket.io/socket.io.js"></script>
+		<script src="js/game/index.js"></script>
+	</head>
+<body>
+	<div align="center">
+		<div>
+			<h3>Create Game</h3>
+			<div>
+				<label for="host_password">Password</label>
+				<input type="password" id="host_password" maxlength="20" size="20"/>
+			</div>
+			<button id="btn_host_connect" class="btn btn-default">Create</button>
+			<h3>Join Game</h3>
+			<div>
+				<label for="player_name">Name</label>
+				<input type="text" id="player_name" style="text-transform:uppercase" maxlength="12"/>
+			</div>
+			<div>
+				<label for="room_code">Room Code</label>
+				<input type="text" id="room_code" style="text-transform:uppercase" maxlength="4"/>
+			</div>
+			<button id="btn_player_connect" class="btn btn-default">Connect</button>
+			<p>(If the game has started or no spots are available, you'll be placed in the audience instead.)</p>
+		</div>
+	</div>
+</body>
+</html>
