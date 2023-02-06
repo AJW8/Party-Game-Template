@@ -1,6 +1,7 @@
 # Party-Game-Template
 
-##A template for creating local server multiplayer party games using Node.js and Socket.IO.
+## A template for creating local server multiplayer party games using Node.js and Socket.IO.
+
 For this project I recreated the setup from https://github.com/shaan1337/quiz while making the necessary modifications.
 
 ### Host
@@ -13,7 +14,7 @@ For this project I recreated the setup from https://github.com/shaan1337/quiz wh
 - The player view is exclusive to the player and should not be shown to anyone else.
 - During the game, the view should update to allow the player to interact with the game by pressing buttons, entering text input, drawing on a canvas, etc.
 
-## Audience
+### Audience
 - If the maximum number of players have already joined or the game has started, any further users who try to join will be put in the audience.
 - The audience generally does not compete but might be able to influence the outcome of the game in some way.
 
